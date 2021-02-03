@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
 *{
     font-family: 'Roboto', sans-serif;
     margin: 0px;
@@ -61,6 +62,7 @@ header{
         right: 0;
     }
     h1{
+        font-weight: 700;
         font-family: 'Fira Sans', sans-serif;
         position: absolute;
         top: 235px;
@@ -178,3 +180,230 @@ body{
         }
     }   
 }    
+
+.apply{
+    margin-top: 70px;
+    margin-left: 90px;
+}
+#top-categories{
+    .title-categories{
+        margin-top: 110px;
+        text-align: center;
+        span{
+            color: #0000fe;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        h2{
+            color: #000;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 1.125;
+            padding: 15px 0px 20px;
+        }
+    }
+   
+
+.top-categories-images{
+    position: relative;
+    margin-left: 34px;
+    display: flex;
+    color: white;
+    .img-1{
+        position: absolute;
+        padding-top: 250px;
+        display: inline-block;
+        width: 370px;
+        border-radius: 10px;
+        background-color: #000;
+        padding: 25px 40px 0px;
+        margin-bottom: 35px;
+        .icon-title{
+            display: inline-block;
+            position: absolute;            
+        }       
+    }
+}
+.title{
+    h4{
+        font-family: "Fira sans";
+        font-weight: 100;
+        font-size: 18px;
+    }
+}
+}
+.owl-theme{
+    .item{
+        border-radius: 10px;
+        background-color: #000;
+        padding: 25px 40px 0px;
+        margin-bottom: 35px;
+        color: white;
+        font-family: Roboto;
+    }
+}
+.container{
+    .slide-changer{
+        text-align: center;
+        display: inline;
+        div{
+            width: 28px;
+            height: 5px;
+            cursor: pointer;
+            border-radius: 30%;
+            display: inline-block;
+            background-color: #ececed;
+            transition: 0.3s all ease-in-out;
+            &:hover{
+                background-color: blue;
+                width: 40px;
+            }
+        }
+        
+    }
+}
+#courses{
+    height: 2000px;
+    background-color: #f7f7f7;
+
+.title-courses{
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+    font-family: "Roboto";
+    padding: 105px 0px 50px;
+    span{
+        font-weight: 700;
+        font-size: 18px;
+        color: blue;
+    }
+    h2{
+        color: #000;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1.125;
+        padding: 15px 0px 20px;
+    }
+}
+}
+   
+    .container{
+        margin-left: 90px;
+        .row{
+            justify-content: space-between;
+            .col-3{
+                position: relative;
+                padding: 25px 25px;
+                padding-right: 145px;
+                border-radius: 10px;
+                margin-top: 40px;
+                background-color: white;
+                max-width: 23%;
+                height: 410px;
+                &:hover{
+                    .course-details{
+                        .course-title{
+                            h3{
+                                a{
+                                    transition: 0.3s;
+                                    color: #fd7e14;
+                                }
+                            }
+                        }
+                        .star-rating{
+                            .next-arrow{
+                                transition: 0.3s;
+                                background-color: #fd7e14;
+                            }
+                        }
+                    }
+                }
+                img{
+                    position: absolute;
+                    box-sizing: border-box;
+                    left: 20px;
+                    right: 20px;
+                    border-radius: 5px;
+                    max-width: 85%;
+                    height: auto;      
+                }
+                .course-details{
+                    position: absolute;
+                    top: 200px;
+                    left: 20px;
+                    .course-fee{
+                        display: flex;
+                        span{
+                            font-weight: 400;
+                            font-size: 16px;
+                            color: #555555;
+                            margin-right: 20px;
+                        }
+                        del{
+                            font-weight: 400;
+                            font-size: 16px;
+                            color: #555555;
+                            margin-right: 20px;
+                        }
+                        strong{
+                            margin-top: -10px;
+                            font-weight: 700;
+                            font-size: 26px;
+                        }
+                    }
+                    .course-title{
+                        h3{
+                            line-height: 1;
+                            a{
+                                font-size: 18px;
+                                font-weight: 700;
+                                color: black;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                    .icons{
+                        display: flex;
+                        a{
+                            color: #555555;
+                            font-size: 14px;
+                            text-decoration: none;
+                            i{
+                            margin-top: 10px;
+                            color: blue;
+                            font-size: 14px;
+                            }
+                        }
+                    }
+                    .star-rating{
+                        font-size: 13px;
+                        margin-top: 25px;
+                        display: flex;
+                        top: 220px;
+                        i{
+                            letter-spacing: 5px;
+                            color: #ffc601;
+                        }
+                        .next-arrow{
+                            width: 30px;
+                            height: 30px;
+                            background-color: #0000fe;
+                            border-radius: 50%;
+                            text-align: center;
+                            margin-left: 30px;
+                            margin-top: -10px;
+                            a{
+                                i{
+                                    margin-left: 5px;
+                                    margin-top: 8px;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }            
+        }
+        
+    }
+
