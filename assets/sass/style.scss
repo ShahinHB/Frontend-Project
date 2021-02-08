@@ -13,19 +13,28 @@ header{
         display: flex;
         width: 100%;
         margin-bottom: 12px;
+        .header-categories{
+            display: flex;
+            margin-left: 65px;
+            margin-top: -14px;
+            .dropdown{
+                .dropbtn{
+                    font-family: "Roboto";
+                    font-weight: 700;
+                    margin-left: 40px ;
+                }
+            }
+        }
         img{
             margin-top: 20px;
             margin-left: 90px;
         }
-        ul{
+        .dropdown{
             margin-top: 37px;
             margin-left: 2px;
             display: flex;
             justify-content: space-between;
             font-weight: 700;
-            li{
-                margin-left: 80px;
-            }
         }
     }
 }
@@ -477,11 +486,13 @@ body{
         font-family: "Roboto";
         padding: 105px 0px 50px;
         span{
+
             font-weight: 700;
             font-size: 18px;
             color: blue;
         }
         h2{
+            font-family: "Fira Sans";
             color: #000;
             font-size: 40px;
             font-weight: 700;
@@ -957,12 +968,21 @@ footer{
         .row{
             margin-right: 100px;
             .col-3{
+                position: relative;
                 padding-left: 0px;
                 padding-right: 0px;
                 background-color: #000a1f;
                 height: auto;
                 &:hover{
                     box-shadow: none;
+                }
+                #border{
+                    position: absolute;
+                    height: 4px;
+                    background-color: #ff5520;
+                    width: 30px;
+                    top: 50px;
+                    left: 0px;
                 }
             }
             #about{
