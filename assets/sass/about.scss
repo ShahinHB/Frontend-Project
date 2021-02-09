@@ -75,52 +75,50 @@ header{
         height: 100%;
         opacity: 1;
         box-sizing: border-box;
-    }    
-    h1{
-        color: #fff;
-        font-size: 60px;
-        font-weight: 700;
-        padding-bottom: 10px;
-        margin-top:-190px;
-        font-family: "Fira Sans";
-    }
-    .navigation{
-        margin-top: -70px;
-        margin-left: 630px;
-        display: flex;
-        h4{
+    }  
+    .title-image{
+        margin-top: -190px;
+        color: white;
+        h1{
+            font-size: 60px;
             font-weight: 700;
-            font-family: "Roboto";
-            color: white;
-            margin-right: 20px;
-            a{
-                font-family: "Roboto";
-                font-weight: 700;
-                color: white;
-                text-decoration: none;
+            padding-bottom: 10px;
+        }
+        .navigation{
+            margin-top: 10px;
+            display: flex;
+            margin-left: 580px;
+            h4{
+                margin-right: 30px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+            i{
+                color: #e3002a;
+                margin-right: 10px;
+                margin-top: 10px;
+                margin-left: -10px;
             }
         }
-        i{
-            color: #e3002a;
-            margin-top: 23px;
-            margin-left: -10px;
-            margin-right: 10px;
-        }
-    }
+    }  
 }
 #about-university{
     width: 100%;
     height: auto;
-    padding-top: 170px;
+    padding-top: 150px;
     display: flex;
     padding-left: 200px;
     .left-side{
+        
         img{
             margin-left: 0px;
         }
     }
     .right-side{
         .title{
+            padding-top: 20px;
             padding-bottom: 15px;
             border-bottom: 1px solid #e6e9f2;
             margin-left: 50px;
@@ -138,7 +136,7 @@ header{
                 font-family: "Fira Sans";
             }
             p{
-                margin-top: -15px;
+                margin-top: 25px;
                 font-size: 16px;
                 font-family: "Roboto";
             }
@@ -146,9 +144,8 @@ header{
     }
 }
 #courses{
-    height: auto;
-    background-color: #f7f7f7;
-    width: 1600px;
+    height: 600px;
+    background-color: #f7f7f7; 
     .title-courses{
         text-align: center;
         margin-top: 40px;
@@ -171,13 +168,71 @@ header{
         }
     }
     .container{
-        justify-content: center!important;
         .row{
+            margin-left: -30px;
+            margin-right: -80px;
             .col-4{
-                padding: 35px 25px;
+                width: 370px;
+                margin-right: 37px;
+                padding-top: 35px;
+                padding-right: 0px;
+                padding-bottom: 15px;
+                padding-left: 25px;
                 transition: 0.3s all ease-in-out;
-                box-shadow: 0px 0px 15px 0px rgb(0, 0, 0 / 0.1);
+                background-color: white;
+                display: flex;
+                i{
+                    font-size: 45px;
+                    color: #0000fe;
+                    padding: 0px;
+                    margin-right: -10px;
+                }
+                .paragraph{
+                    margin-left: 32px;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    a{
+                        color: #000;
+                        font-size: 22px;
+                        font-weight: 700;
+                        padding-bottom: 10px;
+                        transition: 0.3s all ease-in-out;
+                        text-decoration: none;
+                    }
+                    p{
+                        font-size: 15px;
+                        color: #555555;
+                        transition: 0.3s all ease-in-out;
+                    }
+
+                }
             }
         }
     }
+}
+.register{
+    background-color: white;
+    margin-left: 7%;
+    margin-top: 145px;
+    margin-right: 5%;
+    height: 313px;
+    border-radius: 5px;
+    padding-top: -100px;
+    display: flex;
+    .container{
+        margin: 0px !important;
+        .row{
+            margin-left: -26px;
+            .col{
+
+display: flex;
+padding-left: -10px;
+
+#img-2{
+margin-left: 20px;
+margin-top: -54px;
+}
+}
+}
+}
 }
